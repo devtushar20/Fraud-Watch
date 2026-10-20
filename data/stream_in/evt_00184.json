@@ -1,0 +1,1 @@
+{"transaction_id": 122628, "customer_id": 102123, "merchant_id": 5253, "amount": 1321.81, "merchant_category": "Gaming", "channel": "ONLINE", "city": "Kolkata", "distance_from_home_km": 4.7, "is_foreign": 1, "txn_count_1h": 0, "amount_ratio": 0.878, "hour_of_day": 2, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 1, "is_fraud": 0}

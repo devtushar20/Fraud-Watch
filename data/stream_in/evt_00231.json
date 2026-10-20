@@ -1,0 +1,1 @@
+{"transaction_id": 122355, "customer_id": 100625, "merchant_id": 5375, "amount": 7497.73, "merchant_category": "Travel", "channel": "ONLINE", "city": "Delhi", "distance_from_home_km": 1.1, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 4.768, "hour_of_day": 5, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

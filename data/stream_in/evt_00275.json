@@ -1,0 +1,1 @@
+{"transaction_id": 122215, "customer_id": 100514, "merchant_id": 5394, "amount": 589.27, "merchant_category": "Fuel", "channel": "ATM", "city": "Ahmedabad", "distance_from_home_km": 4.3, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.481, "hour_of_day": 7, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

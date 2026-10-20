@@ -1,0 +1,1 @@
+{"transaction_id": 123392, "customer_id": 101169, "merchant_id": 5008, "amount": 602.66, "merchant_category": "Grocery", "channel": "POS", "city": "Bengaluru", "distance_from_home_km": 1231.6, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.56, "hour_of_day": 6, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

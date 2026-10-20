@@ -1,0 +1,1 @@
+{"transaction_id": 123426, "customer_id": 101467, "merchant_id": 5123, "amount": 221.02, "merchant_category": "Restaurant", "channel": "POS", "city": "Kolkata", "distance_from_home_km": 1346.7, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.23, "hour_of_day": 5, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

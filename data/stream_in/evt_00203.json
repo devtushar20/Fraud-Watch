@@ -1,0 +1,1 @@
+{"transaction_id": 122911, "customer_id": 101536, "merchant_id": 5236, "amount": 3334.95, "merchant_category": "Fashion", "channel": "POS", "city": "Delhi", "distance_from_home_km": 3.5, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 2.278, "hour_of_day": 4, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

@@ -1,0 +1,1 @@
+{"transaction_id": 122288, "customer_id": 101428, "merchant_id": 5227, "amount": 2091.8, "merchant_category": "Travel", "channel": "ONLINE", "city": "Bengaluru", "distance_from_home_km": 6.5, "is_foreign": 0, "txn_count_1h": 1, "amount_ratio": 1.95, "hour_of_day": 7, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

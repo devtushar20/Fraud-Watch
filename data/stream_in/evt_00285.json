@@ -1,0 +1,1 @@
+{"transaction_id": 122691, "customer_id": 101932, "merchant_id": 5277, "amount": 2311.57, "merchant_category": "Fuel", "channel": "ONLINE", "city": "Mumbai", "distance_from_home_km": 122.7, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.281, "hour_of_day": 7, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

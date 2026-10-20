@@ -1,0 +1,1 @@
+{"transaction_id": 123307, "customer_id": 102174, "merchant_id": 5017, "amount": 41417.12, "merchant_category": "Jewellery", "channel": "ONLINE", "city": "Delhi", "distance_from_home_km": 6.6, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 13.191, "hour_of_day": 6, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

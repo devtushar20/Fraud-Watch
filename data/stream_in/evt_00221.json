@@ -1,0 +1,1 @@
+{"transaction_id": 122989, "customer_id": 100314, "merchant_id": 5201, "amount": 1654.96, "merchant_category": "Pharmacy", "channel": "ONLINE", "city": "Delhi", "distance_from_home_km": 4.0, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.852, "hour_of_day": 5, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

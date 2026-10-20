@@ -1,0 +1,1 @@
+{"transaction_id": 121123, "customer_id": 100738, "merchant_id": 5243, "amount": 2256.89, "merchant_category": "Utilities", "channel": "ONLINE", "city": "Bengaluru", "distance_from_home_km": 495.4, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.577, "hour_of_day": 23, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 1, "is_fraud": 0}

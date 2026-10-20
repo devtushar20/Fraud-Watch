@@ -1,0 +1,1 @@
+{"transaction_id": 122362, "customer_id": 102355, "merchant_id": 5202, "amount": 3551.36, "merchant_category": "Electronics", "channel": "POS", "city": "Bengaluru", "distance_from_home_km": 3.5, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 4.149, "hour_of_day": 7, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

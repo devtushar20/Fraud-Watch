@@ -1,0 +1,1 @@
+{"transaction_id": 122347, "customer_id": 102852, "merchant_id": 5022, "amount": 17310.73, "merchant_category": "Jewellery", "channel": "POS", "city": "Mumbai", "distance_from_home_km": 1.0, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 5.109, "hour_of_day": 2, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

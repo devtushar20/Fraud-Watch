@@ -1,0 +1,1 @@
+{"transaction_id": 121012, "customer_id": 100646, "merchant_id": 5007, "amount": 6581.53, "merchant_category": "Travel", "channel": "ONLINE", "city": "Chennai", "distance_from_home_km": 1.6, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 8.932, "hour_of_day": 21, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 1, "is_fraud": 0}

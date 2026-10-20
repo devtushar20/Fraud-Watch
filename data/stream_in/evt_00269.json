@@ -1,0 +1,1 @@
+{"transaction_id": 122349, "customer_id": 100299, "merchant_id": 5050, "amount": 643.4, "merchant_category": "Grocery", "channel": "POS", "city": "Mumbai", "distance_from_home_km": 0.4, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.54, "hour_of_day": 6, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

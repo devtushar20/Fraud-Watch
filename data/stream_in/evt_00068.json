@@ -1,0 +1,1 @@
+{"transaction_id": 121478, "customer_id": 102224, "merchant_id": 5274, "amount": 1178.62, "merchant_category": "Grocery", "channel": "ONLINE", "city": "Chennai", "distance_from_home_km": 1.9, "is_foreign": 0, "txn_count_1h": 1, "amount_ratio": 0.809, "hour_of_day": 22, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 1, "is_fraud": 0}

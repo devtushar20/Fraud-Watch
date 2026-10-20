@@ -1,0 +1,1 @@
+{"transaction_id": 120620, "customer_id": 101263, "merchant_id": 5270, "amount": 480.31, "merchant_category": "Utilities", "channel": "POS", "city": "Hyderabad", "distance_from_home_km": 498.6, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.337, "hour_of_day": 22, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 0, "is_fraud": 0}

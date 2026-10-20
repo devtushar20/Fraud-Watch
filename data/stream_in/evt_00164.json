@@ -1,0 +1,1 @@
+{"transaction_id": 122299, "customer_id": 102086, "merchant_id": 5235, "amount": 3065.52, "merchant_category": "Fashion", "channel": "POS", "city": "Kolkata", "distance_from_home_km": 1182.8, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.496, "hour_of_day": 1, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

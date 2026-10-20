@@ -1,0 +1,1 @@
+{"transaction_id": 123136, "customer_id": 101409, "merchant_id": 5140, "amount": 2562.71, "merchant_category": "Fashion", "channel": "POS", "city": "Bengaluru", "distance_from_home_km": 0.5, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.507, "hour_of_day": 6, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

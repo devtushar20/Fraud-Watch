@@ -1,0 +1,1 @@
+{"transaction_id": 121064, "customer_id": 101328, "merchant_id": 5184, "amount": 1218.58, "merchant_category": "Utilities", "channel": "ONLINE", "city": "Hyderabad", "distance_from_home_km": 1.4, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.699, "hour_of_day": 21, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 1, "is_fraud": 0}

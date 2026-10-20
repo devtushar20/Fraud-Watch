@@ -1,0 +1,1 @@
+{"transaction_id": 122334, "customer_id": 100370, "merchant_id": 5368, "amount": 16364.72, "merchant_category": "Jewellery", "channel": "POS", "city": "Bengaluru", "distance_from_home_km": 6.0, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 16.05, "hour_of_day": 6, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

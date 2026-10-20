@@ -1,0 +1,1 @@
+{"transaction_id": 122900, "customer_id": 101255, "merchant_id": 5007, "amount": 11466.1, "merchant_category": "Travel", "channel": "ONLINE", "city": "Mumbai", "distance_from_home_km": 7.9, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 6.852, "hour_of_day": 5, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

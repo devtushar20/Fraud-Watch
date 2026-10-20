@@ -1,0 +1,107 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Fraud Command Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#fafafa;--card:#fff;--bd:#e5e5e5;--tx:#0a0a0a;--mu:#737373;--hv:#f4f4f5}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0a0a0a;--card:#141414;--bd:#262626;--tx:#fafafa;--mu:#a3a3a3;--hv:#1f1f1f}}
+:root[data-theme=dark]{--bg:#0a0a0a;--card:#141414;--bd:#262626;--tx:#fafafa;--mu:#a3a3a3;--hv:#1f1f1f}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:13px Inter,system-ui,sans-serif;display:flex;min-height:100vh}
+aside{background:#000;color:#a3a3a3;width:210px;padding:16px 10px;display:flex;flex-direction:column;gap:2px;position:sticky;top:0;height:100vh;transition:width .2s}
+aside.c{width:56px}aside.c .l{display:none}
+aside button{all:unset;cursor:pointer;padding:8px 10px;border-radius:8px;display:flex;gap:10px;align-items:center}
+aside button:hover,aside button:focus-visible{background:#1a1a1a;color:#fff}aside button.on{color:#fff;font-weight:600;background:#111}
+aside .sub{padding-left:30px}.logo{color:#fff;font-weight:700;padding:6px 10px 14px}
+main{flex:1;min-width:0;padding:16px 20px}
+.top{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:12px}.top h1{font-size:18px;margin:0;flex:1}
+.btn,input,select{font:inherit;color:var(--tx);background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:6px 10px}
+.btn{cursor:pointer}.btn:hover{background:var(--hv)}.btn.k{background:var(--tx);color:var(--bg)}
+.bar{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:8px 12px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px}
+.chip{border:1px solid var(--bd);border-radius:20px;padding:3px 10px;background:var(--hv);cursor:pointer}.chip.off{opacity:.4}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(4,1fr)}.s2{grid-column:span 2}.s4{grid-column:span 4}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;position:relative;min-width:0}
+.card h3{margin:0 0 4px;font-size:13px}.card p{margin:0 0 10px;color:var(--mu);font-size:12px}
+.kpi b{display:block;font-size:22px;margin-top:10px;padding-top:10px;border-top:1px solid var(--bd)}
+.dots{position:absolute;right:8px;top:8px;border:0;background:none;color:var(--mu);cursor:pointer;font-size:16px}
+.menu{position:absolute;right:8px;top:30px;background:var(--card);border:1px solid var(--bd);border-radius:8px;z-index:5;display:none;min-width:130px}
+.menu.on{display:block}.menu div{padding:7px 12px;cursor:pointer}.menu div:hover{background:var(--hv)}
+.pb{height:8px;background:var(--hv);border-radius:6px;margin:4px 0 2px;overflow:hidden}.pb i{display:block;height:100%;background:var(--tx)}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:6px 4px;border-bottom:1px solid var(--bd)}th{cursor:pointer;color:var(--mu);font-weight:500}
+svg text{fill:var(--mu);font-size:10px}.hide{display:none!important}
+.H{color:#dc2626}.M{color:#d97706}.L{color:#16a34a}
+#toast{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:6px;z-index:20}
+#toast div{background:var(--tx);color:var(--bg);padding:9px 14px;border-radius:8px}
+#pal{position:fixed;inset:0;background:#0008;display:none;align-items:flex-start;justify-content:center;padding-top:14vh;z-index:15}#pal.on{display:flex}
+#pal>div{background:var(--card);border:1px solid var(--bd);border-radius:12px;width:min(420px,92vw);padding:10px}#pal input{width:100%;margin-bottom:6px}
+#pal div div{padding:8px;border-radius:6px;cursor:pointer}#pal div div:hover{background:var(--hv)}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:8px}.form label{display:flex;flex-direction:column;gap:3px;color:var(--mu)}
+@media(max-width:800px){.grid{grid-template-columns:1fr 1fr}.s4{grid-column:span 2}aside{width:56px}aside .l{display:none}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.s2,.s4{grid-column:span 1}}
+</style></head><body>
+<aside id="sb"><div class="logo">▲ <span class="l">FraudWatch</span></div>
+<button data-v="home">⌂ <span class="l">Home</span></button><button data-v="data" class="on">▤ <span class="l">Transactions</span></button>
+<button class="sub" data-v="data">· <span class="l">Data</span></button><button class="sub" data-v="map">· <span class="l">Map</span></button><button class="sub" data-v="ins">· <span class="l">Insights</span></button>
+<button data-v="feed">◉ <span class="l">Live feed</span></button>
+<div style="flex:1"></div><button id="col">⇤ <span class="l">Collapse</span></button></aside>
+<main>
+<div class="top"><h1 id="ttl">Transactions</h1><button class="btn" id="q">🔍 Quick actions &nbsp;<small>Ctrl K</small></button><button class="btn" id="th">◐ Theme</button><select id="usr"><option>Prathamesh Dhage</option><option>Tushar Jaiswar</option><option>Shravasti Kamble</option><option>Anurag Jha</option></select></div>
+<div class="bar" id="fb"><span class="chip" id="dc"></span><input type="date" id="d1" min="2026-01-01" max="2026-03-31" value="2026-01-01"><input type="date" id="d2" min="2026-01-01" max="2026-03-31" value="2026-03-31">
+<span id="chs"></span><span style="flex:1"></span><button class="btn" id="rs">Reset filters</button><button class="btn k" id="ex">Export data</button></div>
+<section id="v-data" class="grid">
+<div class="card s4"><button class="dots">⋮</button><h3>Transactions volume</h3><p>Daily number of card transactions for the selected dates and channels.</p><svg id="ln" viewBox="0 0 800 220" width="100%"></svg><div id="tip" style="color:var(--mu);font-size:12px">Hover the chart for a day.</div></div>
+<div class="card s2"><h3>Risk distribution</h3><p>Share of transactions per rule-based risk level.</p><div id="rd"></div></div>
+<div class="card kpi"><h3>Total transactions</h3><p>In the selected range.</p><b id="k1"></b></div><div class="card kpi"><h3>Fraud rate</h3><p>Fraud ÷ transactions.</p><b id="k2"></b></div>
+<div class="card kpi"><h3>HIGH-risk alerts</h3><p>Score ≥ 45, full period.</p><b id="k3"></b></div><div class="card kpi"><h3>Scoring latency</h3><p>Mean per streamed event.</p><b>≈ 8 ms</b></div>
+<div class="card s2"><button class="dots">⋮</button><h3>Fraud by hour of day</h3><p>Percent of transactions that are fraud.</p><svg id="hr" viewBox="0 0 400 150" width="100%"></svg></div>
+<div class="card s2"><button class="dots">⋮</button><h3>Fraud by channel</h3><p>Responds to the date filter.</p><div id="chn"></div></div>
+<div class="card s4"><h3>Top hotspot merchants</h3><p>Ranked by severity score. Click a header to sort.</p><input id="ts" placeholder="Search merchant, city…" style="margin-bottom:8px"><table id="tb"></table></div></section>
+<section id="v-map" class="card hide"><h3>Fraud radar map</h3><p>Bubble size = volume, darkness = fraud rate.</p><svg id="mp" viewBox="0 0 600 420" width="100%"></svg></section>
+<section id="v-ins" class="card hide"><h3>Fraud scoring simulator</h3><p>S = 0.35·Sa + 0.25·Sd + 0.25·Sv + 0.15·Sc &nbsp; LOW &lt;25, MEDIUM 25–45, HIGH ≥45</p>
+<div class="form"><label>Amount ₹<input id="a" type="number" value="27000"></label><label>Customer median ₹<input id="m" type="number" value="6000"></label><label>Distance from home km<input id="d" type="number" value="320"></label><label>Txns in last hour<input id="v" type="number" value="3"></label><label>Hour (0-23)<input id="h" type="number" value="1" min="0" max="23"></label><label>Flags<span><input type="checkbox" id="o" checked> Online &nbsp;<input type="checkbox" id="f"> Foreign</span></label></div>
+<p style="margin-top:12px"><button class="btn k" id="sc">Score transaction</button></p><h2 id="res" style="margin:0"></h2></section>
+<section id="v-feed" class="card hide"><h3>Live feed</h3><p>Simulated transactions scored with the same formula.</p><button class="btn k" id="st">▶ Start stream</button> <button class="btn" id="cl">Clear</button><table id="fd" style="margin-top:10px"></table></section>
+</main><div id="toast"></div><div id="pal"><div><input id="pi" placeholder="Type a command…"><div id="pl"></div></div></div>
+<script>
+const DB={"D":{"POS":[[899,4],[894,1],[871,4],[986,4],[925,8],[857,3],[945,6],[901,6],[837,4],[927,4],[899,2],[893,7],[880,4],[925,11],[911,2],[871,5],[903,1],[874,4],[872,0],[914,3],[907,3],[937,3],[933,3],[933,6],[935,11],[841,4],[887,4],[901,4],[902,3],[881,3],[876,5],[889,3],[949,3],[845,5],[838,3],[911,7],[938,0],[894,3],[912,6],[869,6],[884,3],[889,6],[909,1],[921,1],[882,3],[936,11],[932,2],[928,3],[880,6],[887,2],[920,4],[858,3],[883,4],[868,4],[927,4],[888,4],[877,1],[944,6],[949,1],[922,10],[985,5],[891,3],[899,4],[926,7],[893,4],[915,3],[936,5],[940,2],[848,2],[852,2],[906,9],[937,3],[917,7],[872,4],[875,5],[879,3],[868,2],[880,4],[895,8],[934,1],[892,3],[884,9],[851,2],[869,2],[863,9],[897,1],[945,5],[892,6],[920,6],[883,2]],"ONLINE":[[593,10],[570,6],[614,8],[566,6],[578,9],[590,7],[589,11],[622,9],[595,7],[603,12],[612,9],[631,12],[553,5],[568,14],[609,11],[590,11],[610,10],[594,12],[609,17],[607,10],[591,9],[597,10],[601,13],[635,13],[617,12],[588,9],[632,11],[612,12],[600,10],[613,9],[644,6],[652,11],[623,9],[589,7],[569,6],[600,15],[641,14],[654,10],[640,6],[627,10],[599,12],[587,8],[561,5],[586,7],[578,10],[607,9],[576,13],[593,9],[583,7],[602,10],[587,8],[571,10],[593,8],[614,10],[623,10],[641,10],[614,14],[613,14],[598,12],[608,5],[625,7],[616,12],[602,5],[613,8],[601,15],[632,12],[600,11],[579,8],[636,10],[634,7],[659,9],[627,14],[650,11],[556,9],[619,7],[610,8],[594,11],[600,11],[613,9],[603,12],[609,4],[616,8],[610,10],[606,10],[605,12],[605,12],[604,6],[598,14],[645,12],[582,10]],"ATM":[[119,3],[116,1],[142,3],[139,1],[112,2],[111,1],[142,1],[150,1],[122,0],[143,1],[117,0],[129,1],[119,0],[149,1],[136,0],[137,1],[133,2],[136,2],[128,1],[141,0],[128,0],[121,0],[133,0],[110,0],[148,1],[129,0],[130,0],[132,1],[126,1],[119,0],[118,2],[137,2],[134,0],[127,1],[142,0],[133,1],[134,2],[145,2],[117,0],[117,0],[119,0],[123,0],[128,0],[118,1],[131,0],[140,0],[127,0],[159,0],[121,3],[148,0],[126,0],[126,0],[134,0],[117,1],[136,1],[137,1],[121,0],[141,0],[144,0],[126,0],[139,0],[125,0],[126,0],[128,0],[147,1],[134,0],[118,2],[109,1],[125,0],[151,0],[151,2],[108,0],[112,1],[140,1],[122,3],[132,1],[135,0],[133,0],[125,0],[122,1],[117,1],[147,1],[130,1],[151,1],[119,0],[120,1],[148,0],[125,0],[119,0],[166,0]]},"H":[2.39,2.84,1.89,3.78,3.39,1.04,0.7,0.74,0.84,0.73,0.66,0.78,0.77,0.77,1.03,0.95,0.89,0.76,0.79,0.88,0.73,0.61,0.74,0.98],"K":{"Jewellery":3.03,"Travel":1.53,"Electronics":1.47,"Fuel":0.56,"Fashion":0.55,"Utilities":0.43,"Gaming":0.33,"Restaurant":0.26,"Grocery":0.22,"Pharmacy":0.19},"C":[["Ahmedabad",18172,0.8,23.02,72.57],["Bengaluru",18020,0.8,12.97,77.59],["Chennai",20154,1.1,13.08,80.27],["Delhi",18546,1.3,28.61,77.21],["Hyderabad",17771,0.7,17.38,78.48],["Kolkata",18438,1.3,22.57,88.36],["Mumbai",17927,0.5,19.07,72.88],["Pune",18220,0.7,18.52,73.86]],"T":[[5365,"Jewellery","Kolkata",363,5.23,18216,29.24],[5092,"Jewellery","Kolkata",321,5.61,17457,29.14],[5037,"Jewellery","Kolkata",417,4.32,18473,29.04],[5166,"Jewellery","Delhi",372,5.91,17320,28.76],[5185,"Jewellery","Bengaluru",339,2.65,18774,28.72],[5045,"Jewellery","Bengaluru",361,2.49,18792,28.21],[5386,"Jewellery","Kolkata",349,4.58,16702,27.76],[5226,"Jewellery","Chennai",347,2.02,18771,27.67],[5385,"Jewellery","Chennai",353,3.4,16956,27.65],[5017,"Jewellery","Delhi",371,4.04,16742,27.44]],"R":{"LOW":67.2,"MEDIUM":28.6,"HIGH":4.2},"hi":6111};const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const st={ch:new Set(['POS','ONLINE','ATM']),sort:[6,-1],q:''},fmt=n=>n.toLocaleString('en-IN');
+const day=i=>new Date(Date.UTC(2026,0,1+i)).toISOString().slice(0,10),idx=s=>Math.round((Date.parse(s)-Date.parse('2026-01-01'))/864e5);
+function toast(t){const e=document.createElement('div');e.textContent=t;$('#toast').append(e);setTimeout(()=>e.remove(),2500)}
+function rng(){let a=idx($('#d1').value),b=idx($('#d2').value);if(a>b)[a,b]=[b,a];return[Math.max(0,a),Math.min(89,b)]}
+function agg(ch){const[a,b]=rng();let n=0,f=0;for(let i=a;i<=b;i++){n+=DB.D[ch][i][0];f+=DB.D[ch][i][1]}return[n,f]}
+function draw(){const[a,b]=rng();$('#dc').textContent='📅 '+day(a)+' → '+day(b);
+ const ch=[...st.ch];$('#chs').innerHTML=['POS','ONLINE','ATM'].map(c=>`<span class="chip ${st.ch.has(c)?'':'off'}" data-c="${c}">${c}</span>`).join(' ');
+ const pts=[];for(let i=a;i<=b;i++)pts.push(ch.reduce((s,c)=>s+DB.D[c][i][0],0));const mx=Math.max(...pts,1),mn=Math.min(...pts,0);
+ const X=i=>40+i*(750/Math.max(pts.length-1,1)),Y=v=>200-(v-mn)/(mx-mn||1)*170;
+ $('#ln').innerHTML=`<defs><linearGradient id="g"><stop offset="0" stop-color="#6d28d9"/><stop offset="1" stop-color="#f87171"/></linearGradient></defs>`+[0,1,2,3].map(k=>`<line x1="40" x2="790" y1="${30+k*56.6}" y2="${30+k*56.6}" stroke="currentColor" opacity=".1"/><text x="2" y="${34+k*56.6}">${fmt(Math.round(mx-(mx-mn)*k/3))}</text>`).join('')+`<polyline fill="none" stroke="url(#g)" stroke-width="2.5" points="${pts.map((v,i)=>X(i)+','+Y(v)).join(' ')}"/><rect id="hv" x="40" y="0" width="750" height="210" fill="transparent"/><text x="40" y="216">${day(a)}</text><text x="740" y="216">${day(b)}</text>`;
+ $('#hv').onmousemove=e=>{const r=$('#ln').getBoundingClientRect(),i=Math.round((e.clientX-r.left)/r.width*800-40)/(750/Math.max(pts.length-1,1));const k=Math.max(0,Math.min(pts.length-1,Math.round(i)));$('#tip').textContent=day(a+k)+' — '+fmt(pts[k])+' transactions'};
+ let N=0,F=0;ch.forEach(c=>{const[n,f]=agg(c);N+=n;F+=f});$('#k1').textContent=fmt(N);$('#k2').textContent=(N?F/N*100:0).toFixed(2)+'%';$('#k3').textContent=fmt(DB.hi);
+ $('#chn').innerHTML=['POS','ONLINE','ATM'].map(c=>{const[n,f]=agg(c),p=n?f/n*100:0;return`<div>${c} — ${p.toFixed(2)}% <small>(${fmt(f)} of ${fmt(n)})</small></div><div class="pb"><i style="width:${Math.min(p*40,100)}%"></i></div>`}).join('')}
+$('#rd').innerHTML=[['LOW','Score below 25'],['MEDIUM','25 to 45'],['HIGH','45 and above → alert']].map(([k,t])=>`<div>${k} — ${DB.R[k]}%</div><div class="pb"><i style="width:${DB.R[k]}%"></i></div><small style="color:var(--mu)">${t}</small>`).join('');
+const hm=Math.max(...DB.H);$('#hr').innerHTML=DB.H.map((v,i)=>`<rect x="${10+i*16}" y="${125-v/hm*110}" width="11" height="${v/hm*110}" rx="2" fill="currentColor"><title>${i}:00 — ${v}%</title></rect><text x="${10+i*16}" y="140">${i%3?'':i}</text>`).join('');
+const cols=['Merchant','Category','City','Txns','Fraud %','Mean ₹','Severity'];
+function tbl(){let r=DB.T.filter(x=>x.join(' ').toLowerCase().includes(st.q));const[c,d]=st.sort;r.sort((a,b)=>(a[c]>b[c]?1:-1)*d);$('#tb').innerHTML='<tr>'+cols.map((h,i)=>`<th data-s="${i}">${h}${st.sort[0]==i?(st.sort[1]>0?' ▲':' ▼'):''}</th>`).join('')+'</tr>'+r.map(x=>'<tr>'+x.map((v,i)=>`<td>${i>2?fmt(v):v}</td>`).join('')+'</tr>').join('')}
+function map(){const m=Math.max(...DB.C.map(c=>c[2])),M=Math.max(...DB.C.map(c=>c[1]));$('#mp').innerHTML=DB.C.map(c=>{const x=(c[4]-68)/23*580+10,y=410-(c[3]-8)/23*400;return`<circle cx="${x}" cy="${y}" r="${8+c[1]/M*22}" fill="currentColor" opacity="${.25+c[2]/m*.6}"><title>${c[0]}: ${fmt(c[1])} txns, ${c[2]}% fraud</title></circle><text x="${x+14}" y="${y+3}">${c[0]} ${c[2]}%</text>`}).join('')}
+function score(a,m,d,v,h,o,f){const sa=Math.min(a/m/6,1)*100,sd=Math.min(d/500,1)*100,sv=Math.min(v/5,1)*100,sc=Math.min((h<=4?40:0)+(o?30:0)+(f?30:0),100);const s=.35*sa+.25*sd+.25*sv+.15*sc;return[s,s<25?'LOW':s<45?'MEDIUM':'HIGH']}
+$('#sc').onclick=()=>{const[s,l]=score(+$('#a').value,+$('#m').value||1,+$('#d').value,+$('#v').value,+$('#h').value,$('#o').checked,$('#f').checked);$('#res').innerHTML=`Risk score ${s.toFixed(1)} → <span class="${l[0]}">${l}</span>`;if(l=='HIGH')toast('ALERT: HIGH-risk transaction')};
+let tm=null,seed=7;const rd=()=>(seed=(seed*16807)%2147483647)/2147483647;
+$('#st').onclick=()=>{if(tm){clearInterval(tm);tm=null;$('#st').textContent='▶ Start stream';return}$('#st').textContent='⏸ Pause';tm=setInterval(()=>{const a=Math.round(500+Math.pow(rd(),3)*80000),d=Math.round(rd()*rd()*700),v=Math.floor(rd()*rd()*6),h=Math.floor(rd()*24),o=rd()<.4,f=rd()<.03,[s,l]=score(a,5000,d,v,h,o,f);
+ $('#fd').insertAdjacentHTML('afterbegin',`<tr><td>${new Date().toLocaleTimeString()}</td><td>₹${fmt(a)}</td><td>${d} km</td><td>${s.toFixed(1)}</td><td class="${l[0]}">${l}</td></tr>`);if(l=='HIGH')toast('ALERT: HIGH risk ₹'+fmt(a))},1200)};
+$('#cl').onclick=()=>$('#fd').innerHTML='';
+const V={home:'Home',data:'Transactions',map:'Map',ins:'Insights',feed:'Live feed'};
+function go(v){const w=v=='home'?'data':v;['data','map','ins','feed'].forEach(k=>$('#v-'+k).classList.toggle('hide',k!=w));$('#fb').classList.toggle('hide',w!='data');$('#ttl').textContent=V[v];$$('aside button[data-v]').forEach(b=>b.classList.toggle('on',b.dataset.v==v&&!b.classList.contains('sub')||b.dataset.v==v&&b.classList.contains('sub')));if(v=='map')map()}
+$$('aside button[data-v]').forEach(b=>b.onclick=()=>go(b.dataset.v));$('#col').onclick=()=>$('#sb').classList.toggle('c');
+$('#th').onclick=()=>{const r=document.documentElement,d=(r.dataset.theme||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light'))=='dark'?'light':'dark';r.dataset.theme=d;try{localStorage.setItem('th',d)}catch(e){}};
+try{const t=localStorage.getItem('th');if(t)document.documentElement.dataset.theme=t}catch(e){}
+$('#fb').onclick=e=>{const c=e.target.dataset.c;if(c){st.ch.has(c)?st.ch.delete(c):st.ch.add(c);if(!st.ch.size)st.ch.add(c);draw()}};
+$('#d1').onchange=$('#d2').onchange=draw;$('#rs').onclick=()=>{$('#d1').value='2026-01-01';$('#d2').value='2026-03-31';st.ch=new Set(['POS','ONLINE','ATM']);draw();toast('Filters reset')};
+$('#dc').onclick=$('#rs').onclick;$('#ts').oninput=e=>{st.q=e.target.value.toLowerCase();tbl()};$('#tb').onclick=e=>{const s=e.target.dataset.s;if(s!=null){st.sort=[+s,st.sort[0]==s?-st.sort[1]:-1];tbl()}};
+function csv(name,rows){const b=new Blob([rows.map(r=>r.join(',')).join('\n')],{type:'text/csv'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;a.click();toast('Downloaded '+name)}
+$('#ex').onclick=()=>{const[a,b]=rng(),r=[['date','POS','ONLINE','ATM']];for(let i=a;i<=b;i++)r.push([day(i),...['POS','ONLINE','ATM'].map(c=>DB.D[c][i][0])]);csv('daily_transactions.csv',r)};
+$$('.dots').forEach(b=>{const m=document.createElement('div');m.className='menu';m.innerHTML='<div data-a="csv">Export CSV</div><div data-a="ref">Refresh</div><div data-a="hide">Hide card</div>';b.after(m);b.onclick=e=>{e.stopPropagation();$$('.menu').forEach(x=>x!=m&&x.classList.remove('on'));m.classList.toggle('on')};
+ m.onclick=e=>{const a=e.target.dataset.a,c=b.closest('.card');m.classList.remove('on');if(a=='hide')c.classList.add('hide');else if(a=='ref'){draw();toast('Refreshed')}else if(a=='csv')csv('hotspots.csv',[cols,...DB.T])}});
+document.onclick=()=>$$('.menu').forEach(x=>x.classList.remove('on'));
+const cmds=[['Go to Data',()=>go('data')],['Go to Map',()=>go('map')],['Go to Insights',()=>go('ins')],['Open Live feed',()=>go('feed')],['Toggle theme',()=>$('#th').click()],['Export data',()=>$('#ex').click()],['Reset filters',()=>$('#rs').click()]];
+function pal(){const q=$('#pi').value.toLowerCase();$('#pl').innerHTML='';cmds.filter(c=>c[0].toLowerCase().includes(q)).forEach(c=>{const d=document.createElement('div');d.textContent=c[0];d.onclick=()=>{$('#pal').classList.remove('on');c[1]()};$('#pl').append(d)})}
+$('#q').onclick=()=>{$('#pal').classList.add('on');$('#pi').value='';pal();$('#pi').focus()};$('#pi').oninput=pal;$('#pal').onclick=e=>{if(e.target.id=='pal')$('#pal').classList.remove('on')};
+onkeydown=e=>{if((e.ctrlKey||e.metaKey)&&e.key=='k'){e.preventDefault();$('#q').click()}if(e.key=='Escape')$('#pal').classList.remove('on')};
+$('#usr').onchange=e=>toast('Signed in as '+e.target.value);draw();tbl();
+</script></body></html>

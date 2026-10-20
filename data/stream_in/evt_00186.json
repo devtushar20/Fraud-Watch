@@ -1,0 +1,1 @@
+{"transaction_id": 122576, "customer_id": 100059, "merchant_id": 5152, "amount": 20795.88, "merchant_category": "Electronics", "channel": "POS", "city": "Hyderabad", "distance_from_home_km": 1.5, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 10.704, "hour_of_day": 3, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

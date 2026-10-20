@@ -1,0 +1,1 @@
+{"transaction_id": 122709, "customer_id": 101118, "merchant_id": 5358, "amount": 6743.88, "merchant_category": "Jewellery", "channel": "ONLINE", "city": "Hyderabad", "distance_from_home_km": 2.6, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 3.239, "hour_of_day": 0, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 1, "is_fraud": 0}

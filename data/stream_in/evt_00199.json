@@ -1,0 +1,1 @@
+{"transaction_id": 121978, "customer_id": 101321, "merchant_id": 5157, "amount": 32185.2, "merchant_category": "Travel", "channel": "POS", "city": "Bengaluru", "distance_from_home_km": 4.6, "is_foreign": 1, "txn_count_1h": 0, "amount_ratio": 20.549, "hour_of_day": 4, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

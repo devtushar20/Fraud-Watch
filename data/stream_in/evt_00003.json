@@ -1,0 +1,1 @@
+{"transaction_id": 121320, "customer_id": 102582, "merchant_id": 5300, "amount": 424.21, "merchant_category": "Restaurant", "channel": "ONLINE", "city": "Bengaluru", "distance_from_home_km": 9.7, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.224, "hour_of_day": 21, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 1, "is_fraud": 0}

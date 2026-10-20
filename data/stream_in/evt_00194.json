@@ -1,0 +1,1 @@
+{"transaction_id": 123218, "customer_id": 101484, "merchant_id": 5013, "amount": 2773.72, "merchant_category": "Travel", "channel": "POS", "city": "Mumbai", "distance_from_home_km": 1022.6, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 2.485, "hour_of_day": 3, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

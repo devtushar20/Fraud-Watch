@@ -1,0 +1,1 @@
+{"transaction_id": 120795, "customer_id": 100384, "merchant_id": 5374, "amount": 176.85, "merchant_category": "Restaurant", "channel": "POS", "city": "Mumbai", "distance_from_home_km": 2.3, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.196, "hour_of_day": 22, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 0, "is_fraud": 0}

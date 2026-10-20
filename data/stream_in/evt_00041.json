@@ -1,0 +1,1 @@
+{"transaction_id": 121452, "customer_id": 100173, "merchant_id": 5151, "amount": 278.71, "merchant_category": "Fuel", "channel": "ONLINE", "city": "Hyderabad", "distance_from_home_km": 8.0, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.276, "hour_of_day": 21, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 1, "is_fraud": 0}

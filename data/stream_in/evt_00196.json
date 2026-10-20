@@ -1,0 +1,1 @@
+{"transaction_id": 121925, "customer_id": 101108, "merchant_id": 5223, "amount": 7445.95, "merchant_category": "Electronics", "channel": "ATM", "city": "Hyderabad", "distance_from_home_km": 885.9, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 6.466, "hour_of_day": 3, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 1}

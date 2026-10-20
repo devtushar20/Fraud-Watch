@@ -1,0 +1,1 @@
+{"transaction_id": 123118, "customer_id": 102791, "merchant_id": 5357, "amount": 282.49, "merchant_category": "Grocery", "channel": "ONLINE", "city": "Delhi", "distance_from_home_km": 5.0, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.261, "hour_of_day": 6, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

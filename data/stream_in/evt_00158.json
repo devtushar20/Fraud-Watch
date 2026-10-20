@@ -1,0 +1,1 @@
+{"transaction_id": 122703, "customer_id": 102045, "merchant_id": 5204, "amount": 1519.45, "merchant_category": "Pharmacy", "channel": "ONLINE", "city": "Ahmedabad", "distance_from_home_km": 6.4, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.998, "hour_of_day": 1, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 1, "is_fraud": 0}

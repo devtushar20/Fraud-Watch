@@ -1,0 +1,1 @@
+{"transaction_id": 122783, "customer_id": 100336, "merchant_id": 5147, "amount": 6284.37, "merchant_category": "Electronics", "channel": "POS", "city": "Chennai", "distance_from_home_km": 1368.7, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 6.667, "hour_of_day": 2, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

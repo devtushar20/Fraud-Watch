@@ -1,0 +1,1 @@
+{"transaction_id": 123001, "customer_id": 101049, "merchant_id": 5091, "amount": 671.64, "merchant_category": "Restaurant", "channel": "ATM", "city": "Mumbai", "distance_from_home_km": 2.8, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.505, "hour_of_day": 7, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

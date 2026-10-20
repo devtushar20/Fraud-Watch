@@ -1,0 +1,1 @@
+{"transaction_id": 122030, "customer_id": 102912, "merchant_id": 5373, "amount": 624.77, "merchant_category": "Restaurant", "channel": "POS", "city": "Chennai", "distance_from_home_km": 10.5, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.337, "hour_of_day": 2, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

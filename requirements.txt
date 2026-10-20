@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+streamlit
+plotly
+# optional, only for the Spark scripts in pyspark/ (needs Java 17):
+# pyspark==3.5.*

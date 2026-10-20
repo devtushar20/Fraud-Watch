@@ -1,0 +1,1 @@
+{"transaction_id": 122339, "customer_id": 102234, "merchant_id": 5026, "amount": 342.79, "merchant_category": "Utilities", "channel": "POS", "city": "Kolkata", "distance_from_home_km": 3.5, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.614, "hour_of_day": 2, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

@@ -1,0 +1,1 @@
+{"transaction_id": 122544, "customer_id": 101651, "merchant_id": 5199, "amount": 2248.01, "merchant_category": "Electronics", "channel": "ONLINE", "city": "Mumbai", "distance_from_home_km": 5.4, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.936, "hour_of_day": 5, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

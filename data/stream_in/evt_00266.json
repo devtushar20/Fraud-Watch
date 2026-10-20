@@ -1,0 +1,1 @@
+{"transaction_id": 121730, "customer_id": 100247, "merchant_id": 5038, "amount": 1017.78, "merchant_category": "Utilities", "channel": "ONLINE", "city": "Chennai", "distance_from_home_km": 2.2, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.714, "hour_of_day": 6, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

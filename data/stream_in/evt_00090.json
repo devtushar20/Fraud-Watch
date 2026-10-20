@@ -1,0 +1,1 @@
+{"transaction_id": 121156, "customer_id": 101333, "merchant_id": 5155, "amount": 449.87, "merchant_category": "Grocery", "channel": "ONLINE", "city": "Pune", "distance_from_home_km": 5.7, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.312, "hour_of_day": 22, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 1, "is_fraud": 0}

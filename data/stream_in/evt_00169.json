@@ -1,0 +1,1 @@
+{"transaction_id": 122371, "customer_id": 100013, "merchant_id": 5242, "amount": 2508.86, "merchant_category": "Pharmacy", "channel": "ONLINE", "city": "Pune", "distance_from_home_km": 0.7, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 2.573, "hour_of_day": 1, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 1, "is_fraud": 0}

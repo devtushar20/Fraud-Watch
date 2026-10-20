@@ -1,0 +1,1 @@
+{"transaction_id": 121523, "customer_id": 100893, "merchant_id": 5256, "amount": 15937.32, "merchant_category": "Travel", "channel": "POS", "city": "Ahmedabad", "distance_from_home_km": 2.1, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 21.28, "hour_of_day": 23, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 0, "is_fraud": 0}

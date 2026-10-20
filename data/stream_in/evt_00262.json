@@ -1,0 +1,1 @@
+{"transaction_id": 121968, "customer_id": 100551, "merchant_id": 5281, "amount": 461.4, "merchant_category": "Restaurant", "channel": "ONLINE", "city": "Ahmedabad", "distance_from_home_km": 1371.0, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.729, "hour_of_day": 6, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

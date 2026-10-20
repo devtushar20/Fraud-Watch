@@ -1,0 +1,1 @@
+{"transaction_id": 123418, "customer_id": 101536, "merchant_id": 5021, "amount": 971.69, "merchant_category": "Fashion", "channel": "POS", "city": "Pune", "distance_from_home_km": 1169.3, "is_foreign": 0, "txn_count_1h": 1, "amount_ratio": 0.664, "hour_of_day": 5, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

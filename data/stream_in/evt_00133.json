@@ -1,0 +1,1 @@
+{"transaction_id": 121166, "customer_id": 101034, "merchant_id": 5332, "amount": 671.92, "merchant_category": "Pharmacy", "channel": "POS", "city": "Mumbai", "distance_from_home_km": 1.8, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.266, "hour_of_day": 23, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 0, "is_fraud": 0}

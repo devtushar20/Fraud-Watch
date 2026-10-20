@@ -1,0 +1,1 @@
+{"transaction_id": 121849, "customer_id": 100339, "merchant_id": 5202, "amount": 2802.61, "merchant_category": "Electronics", "channel": "ONLINE", "city": "Ahmedabad", "distance_from_home_km": 4.0, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.185, "hour_of_day": 0, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 1, "is_fraud": 0}

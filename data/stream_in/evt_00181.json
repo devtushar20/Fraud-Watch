@@ -1,0 +1,1 @@
+{"transaction_id": 123105, "customer_id": 101291, "merchant_id": 5003, "amount": 36084.08, "merchant_category": "Travel", "channel": "POS", "city": "Pune", "distance_from_home_km": 1.4, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 38.272, "hour_of_day": 2, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

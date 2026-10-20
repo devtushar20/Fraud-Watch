@@ -1,0 +1,1 @@
+{"transaction_id": 123085, "customer_id": 102376, "merchant_id": 5065, "amount": 857.12, "merchant_category": "Pharmacy", "channel": "POS", "city": "Bengaluru", "distance_from_home_km": 733.2, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.0, "hour_of_day": 2, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

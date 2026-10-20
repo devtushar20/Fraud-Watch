@@ -1,0 +1,1 @@
+{"transaction_id": 123409, "customer_id": 100628, "merchant_id": 5072, "amount": 519.38, "merchant_category": "Grocery", "channel": "ONLINE", "city": "Kolkata", "distance_from_home_km": 1.8, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.484, "hour_of_day": 7, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

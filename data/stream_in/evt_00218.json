@@ -1,0 +1,1 @@
+{"transaction_id": 122212, "customer_id": 100610, "merchant_id": 5288, "amount": 2893.77, "merchant_category": "Electronics", "channel": "ONLINE", "city": "Pune", "distance_from_home_km": 4.3, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 2.093, "hour_of_day": 5, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

@@ -1,0 +1,1 @@
+{"transaction_id": 123161, "customer_id": 101739, "merchant_id": 5299, "amount": 1968.7, "merchant_category": "Travel", "channel": "POS", "city": "Delhi", "distance_from_home_km": 1.8, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.074, "hour_of_day": 6, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

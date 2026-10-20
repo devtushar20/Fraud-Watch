@@ -1,0 +1,1 @@
+{"transaction_id": 121958, "customer_id": 100290, "merchant_id": 5320, "amount": 2222.16, "merchant_category": "Restaurant", "channel": "POS", "city": "Pune", "distance_from_home_km": 1.9, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.845, "hour_of_day": 7, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

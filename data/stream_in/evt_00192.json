@@ -1,0 +1,1 @@
+{"transaction_id": 122987, "customer_id": 100274, "merchant_id": 5248, "amount": 2230.6, "merchant_category": "Fashion", "channel": "POS", "city": "Ahmedabad", "distance_from_home_km": 1371.7, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.101, "hour_of_day": 3, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

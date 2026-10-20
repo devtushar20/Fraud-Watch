@@ -1,0 +1,1 @@
+{"transaction_id": 123232, "customer_id": 101691, "merchant_id": 5136, "amount": 78.94, "merchant_category": "Pharmacy", "channel": "ATM", "city": "Ahmedabad", "distance_from_home_km": 1.6, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.102, "hour_of_day": 2, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

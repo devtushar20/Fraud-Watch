@@ -1,0 +1,1 @@
+{"transaction_id": 120778, "customer_id": 100580, "merchant_id": 5281, "amount": 793.27, "merchant_category": "Restaurant", "channel": "ONLINE", "city": "Mumbai", "distance_from_home_km": 1.5, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.045, "hour_of_day": 23, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 1, "is_fraud": 0}

@@ -1,0 +1,1 @@
+{"transaction_id": 120494, "customer_id": 101536, "merchant_id": 5353, "amount": 2845.29, "merchant_category": "Fuel", "channel": "ATM", "city": "Delhi", "distance_from_home_km": 2.1, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.944, "hour_of_day": 21, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 0, "is_fraud": 0}

@@ -1,0 +1,1 @@
+{"transaction_id": 121184, "customer_id": 100227, "merchant_id": 5151, "amount": 1123.94, "merchant_category": "Fuel", "channel": "ONLINE", "city": "Kolkata", "distance_from_home_km": 2.7, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.705, "hour_of_day": 21, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 1, "is_fraud": 0}

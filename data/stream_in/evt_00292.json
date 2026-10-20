@@ -1,0 +1,1 @@
+{"transaction_id": 123346, "customer_id": 102489, "merchant_id": 5014, "amount": 604.61, "merchant_category": "Gaming", "channel": "POS", "city": "Bengaluru", "distance_from_home_km": 4.9, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.151, "hour_of_day": 7, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

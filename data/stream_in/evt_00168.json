@@ -1,0 +1,1 @@
+{"transaction_id": 122250, "customer_id": 100605, "merchant_id": 5364, "amount": 12022.94, "merchant_category": "Electronics", "channel": "ATM", "city": "Pune", "distance_from_home_km": 1592.7, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 9.37, "hour_of_day": 1, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

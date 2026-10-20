@@ -1,0 +1,1 @@
+{"transaction_id": 123103, "customer_id": 101539, "merchant_id": 5221, "amount": 3312.36, "merchant_category": "Gaming", "channel": "POS", "city": "Kolkata", "distance_from_home_km": 4.1, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 2.303, "hour_of_day": 3, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}

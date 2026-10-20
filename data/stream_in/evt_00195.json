@@ -1,0 +1,1 @@
+{"transaction_id": 122466, "customer_id": 101802, "merchant_id": 5351, "amount": 661.04, "merchant_category": "Fuel", "channel": "ONLINE", "city": "Chennai", "distance_from_home_km": 5.3, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.648, "hour_of_day": 3, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 1, "is_fraud": 0}

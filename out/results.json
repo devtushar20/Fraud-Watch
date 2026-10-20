@@ -1,0 +1,117 @@
+{
+ "metrics": {
+  "Random Forest": {
+   "accuracy": 0.9909677419354839,
+   "precision_w": 0.9895332666631589,
+   "recall_w": 0.9909677419354839,
+   "f1_w": 0.9901074509992207,
+   "macro_f1": 0.700849628755218,
+   "fraud_precision": 0.5027624309392266,
+   "fraud_recall": 0.3408239700374532,
+   "fraud_f1": 0.40625
+  },
+  "Decision Tree": {
+   "accuracy": 0.9838709677419355,
+   "precision_w": 0.9887679635042292,
+   "recall_w": 0.9838709677419355,
+   "f1_w": 0.9860484975914979,
+   "macro_f1": 0.6727875367459801,
+   "fraud_precision": 0.2777777777777778,
+   "fraud_recall": 0.4868913857677903,
+   "fraud_f1": 0.35374149659863946
+  },
+  "Logistic Regression": {
+   "accuracy": 0.9089303904923599,
+   "precision_w": 0.9910764795572803,
+   "recall_w": 0.9089303904923599,
+   "f1_w": 0.9446595474059247,
+   "macro_f1": 0.5544993127712419,
+   "fraud_precision": 0.08576329331046312,
+   "fraud_recall": 0.9363295880149812,
+   "fraud_f1": 0.1571338780641106
+  },
+  "Rule score (HIGH)": {
+   "accuracy": 0.9613921901528013,
+   "fraud_precision": 0.15530903328050713,
+   "fraud_recall": 0.7340823970037453,
+   "fraud_f1": 0.2563767168083715
+  }
+ },
+ "cms": {
+  "Random Forest": [
+   [
+    29093,
+    90
+   ],
+   [
+    176,
+    91
+   ]
+  ],
+  "Decision Tree": [
+   [
+    28845,
+    338
+   ],
+   [
+    137,
+    130
+   ]
+  ],
+  "Logistic Regression": [
+   [
+    26518,
+    2665
+   ],
+   [
+    17,
+    250
+   ]
+  ],
+  "Rule score (HIGH)": [
+   [
+    28117,
+    1066
+   ],
+   [
+    71,
+    196
+   ]
+  ]
+ },
+ "meta": {
+  "raw_rows": 153800,
+  "clean_rows": 147248,
+  "steps": {
+   "null_keys_or_amount": 3105,
+   "amount_out_of_range": 1104,
+   "invalid_coordinates": 588,
+   "duplicates": 1755
+  },
+  "train": 117798,
+  "test": 29450,
+  "fraud_rate_all": 0.008950885580788874,
+  "fraud_rate_test": 0.009066213921901527,
+  "fraud_test": 267,
+  "level_counts_test": {
+   "LOW": 19899,
+   "MEDIUM": 8289,
+   "HIGH": 1262
+  },
+  "n_customers": 3000,
+  "n_merchants": 400,
+  "raw_with_dups": 153800,
+  "importance": {
+   "distance_from_home_km": 0.4757,
+   "amount_ratio": 0.158,
+   "amount": 0.1386,
+   "hour_of_day": 0.0604,
+   "is_online": 0.0473,
+   "day_of_week": 0.0281,
+   "cat_Jewellery": 0.0201,
+   "is_foreign": 0.0156
+  },
+  "tstart": "2026-01-01 00:07:59",
+  "tend": "2026-03-31 23:59:49"
+ }
+}

@@ -1,0 +1,1 @@
+{"transaction_id": 121981, "customer_id": 102684, "merchant_id": 5157, "amount": 10021.79, "merchant_category": "Travel", "channel": "ONLINE", "city": "Kolkata", "distance_from_home_km": 5.7, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 5.398, "hour_of_day": 2, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 1, "is_fraud": 0}

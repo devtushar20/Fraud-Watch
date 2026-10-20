@@ -1,0 +1,1 @@
+{"transaction_id": 120209, "customer_id": 100706, "merchant_id": 5062, "amount": 134.54, "merchant_category": "Pharmacy", "channel": "POS", "city": "Chennai", "distance_from_home_km": 1021.0, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.122, "hour_of_day": 22, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 0, "is_fraud": 0}

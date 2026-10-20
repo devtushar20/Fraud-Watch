@@ -1,0 +1,1 @@
+{"transaction_id": 122982, "customer_id": 101595, "merchant_id": 5394, "amount": 300.42, "merchant_category": "Fuel", "channel": "ONLINE", "city": "Ahmedabad", "distance_from_home_km": 798.6, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.333, "hour_of_day": 7, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

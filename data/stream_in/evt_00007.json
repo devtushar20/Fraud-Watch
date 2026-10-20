@@ -1,0 +1,1 @@
+{"transaction_id": 120821, "customer_id": 101555, "merchant_id": 5029, "amount": 1683.57, "merchant_category": "Fuel", "channel": "ONLINE", "city": "Delhi", "distance_from_home_km": 4.4, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.429, "hour_of_day": 21, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 1, "is_fraud": 0}

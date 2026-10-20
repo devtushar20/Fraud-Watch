@@ -1,0 +1,1 @@
+{"transaction_id": 121889, "customer_id": 101736, "merchant_id": 5172, "amount": 288.01, "merchant_category": "Grocery", "channel": "POS", "city": "Kolkata", "distance_from_home_km": 3.8, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.173, "hour_of_day": 7, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

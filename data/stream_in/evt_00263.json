@@ -1,0 +1,1 @@
+{"transaction_id": 123388, "customer_id": 100842, "merchant_id": 5024, "amount": 1652.44, "merchant_category": "Gaming", "channel": "ONLINE", "city": "Ahmedabad", "distance_from_home_km": 7.2, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 1.168, "hour_of_day": 6, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

@@ -1,0 +1,1 @@
+{"transaction_id": 122476, "customer_id": 100667, "merchant_id": 5210, "amount": 1449.79, "merchant_category": "Jewellery", "channel": "POS", "city": "Pune", "distance_from_home_km": 0.8, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.712, "hour_of_day": 5, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 0, "is_fraud": 0}

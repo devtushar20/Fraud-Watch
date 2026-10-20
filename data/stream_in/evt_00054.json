@@ -1,0 +1,1 @@
+{"transaction_id": 120588, "customer_id": 101666, "merchant_id": 5195, "amount": 173.78, "merchant_category": "Fuel", "channel": "ATM", "city": "Pune", "distance_from_home_km": 5.2, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.284, "hour_of_day": 21, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 0, "is_fraud": 0}

@@ -1,0 +1,1 @@
+{"transaction_id": 122145, "customer_id": 100003, "merchant_id": 5275, "amount": 359.16, "merchant_category": "Pharmacy", "channel": "ONLINE", "city": "Chennai", "distance_from_home_km": 1.9, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.368, "hour_of_day": 5, "day_of_week": 5, "is_weekend": 1, "is_night": 0, "is_online": 1, "is_fraud": 0}

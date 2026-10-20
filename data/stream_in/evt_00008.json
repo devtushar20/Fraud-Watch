@@ -1,0 +1,1 @@
+{"transaction_id": 121574, "customer_id": 102638, "merchant_id": 5338, "amount": 1008.06, "merchant_category": "Pharmacy", "channel": "ATM", "city": "Delhi", "distance_from_home_km": 1.0, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 0.555, "hour_of_day": 21, "day_of_week": 4, "is_weekend": 0, "is_night": 0, "is_online": 0, "is_fraud": 0}

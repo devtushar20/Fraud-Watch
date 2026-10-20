@@ -1,0 +1,1 @@
+{"transaction_id": 122126, "customer_id": 100665, "merchant_id": 5130, "amount": 4561.52, "merchant_category": "Fashion", "channel": "ATM", "city": "Hyderabad", "distance_from_home_km": 4.8, "is_foreign": 0, "txn_count_1h": 0, "amount_ratio": 2.186, "hour_of_day": 4, "day_of_week": 5, "is_weekend": 1, "is_night": 1, "is_online": 0, "is_fraud": 0}
